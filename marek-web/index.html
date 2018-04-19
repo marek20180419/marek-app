@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="./marek_files/marek.css">
+  <script type="text/javascript" src="./marek_files/jquery.min.js.download"></script><style></style>
+  <script type="text/javascript" src="./marek_files/angular.min.js.download"></script>
+  <script type="text/javascript" src="./marek_files/marek.js"></script>
+  <script type="text/javascript" src="./marek_files/marek.angular.js"></script>
+  <title>Marek - Tree view demo</title>
+</head>
+<body>
+  <div ng-app="myApp" class="ng-scope">
+  <div ng-controller="myController" class="ng-scope">
+    <div>
+      <input type="button" value="Mock data" data-ng-click="dataList = mock"> 
+	  <input type="button" value="Localhost Java endpoint" data-ng-click="dataList = java">
+	  <input type="button" value="Localhost Scala endpoint" data-ng-click="dataList = scala">
+    </div>
+    <div data-tree-model="dataList" data-node-id="id" data-node-name="name" data-node-nodes="nodes">
+  </div>
+</div>
+</body></html>
