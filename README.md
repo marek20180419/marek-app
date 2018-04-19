@@ -1,4 +1,6 @@
-Nie miałem jeszcze czasu dodać testów. Postaram się je dodać w wolnej chwili.
+Nie miałem jeszcze czasu dodać testów. Jeśli jest potrzeba mogę je dodać.
+
+Demo: https://youtu.be/5Tj9bKAGs6I
 
 Ogólnie stan na teraz jest taki:
 - Aplikacja posiada 3 moduły:
